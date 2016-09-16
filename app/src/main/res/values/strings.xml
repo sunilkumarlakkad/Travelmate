@@ -1,3 +1,40 @@
 <resources>
     <string name="app_name">Travelmate</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="autocomplete_hint">Enter place name or address</string>
+    <string name="selected_place">Last Selected Place:</string>
+    <string name="clear_text">Clear Text</string>
+    <string name="open">Open Drawer</string>
+    <string name="close">Close Drawer</string>
+    <string name="estimated_fare">Estimated Fare</string>
+    <string name="username">Username</string>
+    <string name="sunil_gmail_com">sunil@gmail.com</string>
+    <string name="password">Password</string>
+    <string name="sunil">sunil</string>
+    <string name="register">REGISTER</string>
+    <string name="title">Title:</string>
+    <string name="detail">Detail:</string>
+    <string name="add">ADD</string>
+    <string name="login">LOGIN</string>
+    <string name="origin">Origin</string>
+    <string name="destination">Destination</string>
+    <string name="go">GO</string>
+    <string name="find_taxi">Find Taxi</string>
+    <string name="attractions">Attractions</string>
+    <string name="videos">Videos</string>
+    <string name="notes">Notes</string>
+    <string name="closed">Closed</string>
+
+
+    <string name="token_expired">Session Expired</string>
+    <string name="token_expired_message">You will need to log in again.</string>
+
+    <string name="no_internet_connection">No Internet Connection</string>
+
+    <string name="authentication_error">Username or Password is Wrong</string>
+    <string name="authentication_success">User logged in successfully</string>
+    <string name="oops_description">Something went wrong. Please try again</string>
+    <string name="required_fields">Please enter username and password</string>
+
+    <string name="register_success">User created successfully</string>
 </resources>

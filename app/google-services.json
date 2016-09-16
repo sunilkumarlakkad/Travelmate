@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "938116837514",
+    "firebase_url": "https://travelmate-a0c6f.firebaseio.com",
+    "project_id": "travelmate-a0c6f",
+    "storage_bucket": "travelmate-a0c6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938116837514:android:b594de7e8e543b36",
+        "android_client_info": {
+          "package_name": "com.example.sunillakkad.travelmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "938116837514-denpt2an411fom9a6it6koj56k69ibm3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjS8KOA_ffGr-zQOlywW_CPM06FQ9JCos"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

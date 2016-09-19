@@ -161,10 +161,10 @@ public class LoginFragment extends Fragment {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 FirebaseUser user = firebaseAuth.getCurrentUser();
-                /*if (user != null)
+                if (user != null)
                     mCallback.onLoginDone();
                 else
-                    showSnackBar(mAuthError);*/
+                    showSnackBar(mAuthError);
             }
         };
     }

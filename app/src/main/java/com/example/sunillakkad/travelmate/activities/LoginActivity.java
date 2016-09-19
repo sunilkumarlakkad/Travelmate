@@ -48,7 +48,7 @@ public class LoginActivity extends BaseActivity implements LoginFragment.LoginAc
 
     @Override
     public void onLoginDone() {
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, HomeActivity.class);
         startActivity(intent);
     }
 }

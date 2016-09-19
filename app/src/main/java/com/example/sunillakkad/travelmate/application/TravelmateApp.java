@@ -1,6 +1,7 @@
 package com.example.sunillakkad.travelmate.application;
 
 import android.app.Application;
+import android.location.Address;
 import android.util.Log;
 
 import com.example.sunillakkad.travelmate.utils.NetworkCallManager;
@@ -13,7 +14,7 @@ public class TravelmateApp extends Application {
 
     private static TravelmateApp mInstance;
     private NetworkCallManager mNetworkCallManager;
-
+    private Address mCurrentAddress;
     @Override
     public void onCreate() {
         super.onCreate();
@@ -35,6 +36,13 @@ public class TravelmateApp extends Application {
 
     public static synchronized TravelmateApp getInstance() {
         return mInstance;
+    }
+
+    public synchronized void setCurrentAddress(Address address) {
+         mCurrentAddress = address;
+    }
+    public synchronized Address getCurrentAddress() {
+        return mCurrentAddress;
     }
 
 }
